@@ -2,7 +2,8 @@
   "name": "fontpkg-irg-n2878r3",
   "version": "1.0.0",
   "private": true,
-  "description": "Local-only package for the attached fonts in IRG N2878R3, Final proposal to encode CJK Unified Ideographs Components",
+  "type": "module",
+  "description": "Font package for the attached fonts in IRG N2878R3, Final proposal to encode CJK Unified Ideographs Components",
   "keywords": [
     "font",
     "fonts",
@@ -16,13 +17,19 @@
   ],
   "license": "UNLICENSED",
   "style": "index.css",
+  "scripts": {
+    "generate": "tsx _generate.ts",
+    "typecheck": "tsc --noEmit",
+    "check": "npm run typecheck && npm run generate",
+    "prepublishOnly": "npm run check"
+  },
   "files": [
-    "gca-Regular.ttf",
-    "gcp-Regular.ttf",
-    "hcp-Regular.ttf",
-    "tcp-Regular.ttf",
-    "ucp-Regular.ttf",
-    "vcp-Regular.ttf",
+    "irg-n2878r3-gca-Regular.ttf",
+    "irg-n2878r3-gcp-Regular.ttf",
+    "irg-n2878r3-hcp-Regular.ttf",
+    "irg-n2878r3-tcp-Regular.ttf",
+    "irg-n2878r3-ucp-Regular.ttf",
+    "irg-n2878r3-vcp-Regular.ttf",
     "component.txt",
     "index.css",
     "NOTICE.md"
@@ -31,5 +38,19 @@
     "type": "git",
     "url": "git+https://github.com/leonsilicon/fontpkg-irg-n2878r3.git"
   },
-  "homepage": "https://github.com/leonsilicon/fontpkg-irg-n2878r3#readme"
+  "bugs": {
+    "url": "https://github.com/leonsilicon/fontpkg-irg-n2878r3/issues"
+  },
+  "homepage": "https://github.com/leonsilicon/fontpkg-irg-n2878r3#readme",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "fonteditor-core": "^2.6.3",
+    "pdfjs-dist": "^6.1.200",
+    "tsx": "^4.23.1",
+    "typescript": "^7.0.2"
+  }
 }

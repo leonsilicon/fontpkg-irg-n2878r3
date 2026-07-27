@@ -1,47 +1,47 @@
 @font-face {
-  font-family: "gca";
+  font-family: "IRG N2878R3 GCA";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("./gca-Regular.ttf") format("truetype");
+  src: url("./irg-n2878r3-gca-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "gcp";
+  font-family: "IRG N2878R3 GCP";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("./gcp-Regular.ttf") format("truetype");
+  src: url("./irg-n2878r3-gcp-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "hcp";
+  font-family: "IRG N2878R3 HCP";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("./hcp-Regular.ttf") format("truetype");
+  src: url("./irg-n2878r3-hcp-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "IRGN2878R2a_TCP";
+  font-family: "IRG N2878R3 TCP";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("./tcp-Regular.ttf") format("truetype");
+  src: url("./irg-n2878r3-tcp-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "ucp";
+  font-family: "IRG N2878R3 UCP";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("./ucp-Regular.ttf") format("truetype");
+  src: url("./irg-n2878r3-ucp-Regular.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "vcp";
+  font-family: "IRG N2878R3 VCP";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("./vcp-Regular.ttf") format("truetype");
+  src: url("./irg-n2878r3-vcp-Regular.ttf") format("truetype");
 }
