@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "gca";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./gca-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "gcp";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./gcp-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "hcp";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./hcp-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "IRGN2878R2a_TCP";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./tcp-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "ucp";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./ucp-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "vcp";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./vcp-Regular.ttf") format("truetype");
+}

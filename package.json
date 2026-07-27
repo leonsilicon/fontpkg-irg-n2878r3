@@ -1,0 +1,35 @@
+{
+  "name": "fontpkg-irg-n2878r3",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local-only package for the attached fonts in IRG N2878R3, Final proposal to encode CJK Unified Ideographs Components",
+  "keywords": [
+    "font",
+    "fonts",
+    "ttf",
+    "truetype",
+    "unicode",
+    "cjk",
+    "cjk-components",
+    "ideographic-components",
+    "IRG N2878R3"
+  ],
+  "license": "UNLICENSED",
+  "style": "index.css",
+  "files": [
+    "gca-Regular.ttf",
+    "gcp-Regular.ttf",
+    "hcp-Regular.ttf",
+    "tcp-Regular.ttf",
+    "ucp-Regular.ttf",
+    "vcp-Regular.ttf",
+    "component.txt",
+    "index.css",
+    "NOTICE.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonsilicon/fontpkg-irg-n2878r3.git"
+  },
+  "homepage": "https://github.com/leonsilicon/fontpkg-irg-n2878r3#readme"
+}
